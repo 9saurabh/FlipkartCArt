@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-31T00:11:38 IST" name="FKSuite" finished-at="2022-05-31T00:12:20 IST" duration-ms="41416">
+    <groups>
+    </groups>
+    <test started-at="2022-05-31T00:11:38 IST" name="ChromeTest" finished-at="2022-05-31T00:12:20 IST" duration-ms="41416">
+      <class name="TestClass.VerifyLoginAndOrder">
+        <test-method is-config="true" signature="lauchdriver(java.lang.String)[pri:0, instance:TestClass.VerifyLoginAndOrder@20deea7f]" started-at="2022-05-31T00:11:38 IST" name="lauchdriver" finished-at="2022-05-31T00:11:41 IST" duration-ms="2768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchdriver -->
+        <test-method is-config="true" signature="DeclareObject()[pri:0, instance:TestClass.VerifyLoginAndOrder@20deea7f]" started-at="2022-05-31T00:11:41 IST" name="DeclareObject" finished-at="2022-05-31T00:11:41 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeclareObject -->
+        <test-method is-config="true" signature="LaunchFlipkart()[pri:0, instance:TestClass.VerifyLoginAndOrder@20deea7f]" started-at="2022-05-31T00:11:41 IST" name="LaunchFlipkart" finished-at="2022-05-31T00:11:55 IST" duration-ms="13859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchFlipkart -->
+        <test-method signature="AddItems()[pri:0, instance:TestClass.VerifyLoginAndOrder@20deea7f]" started-at="2022-05-31T00:11:55 IST" name="AddItems" finished-at="2022-05-31T00:12:14 IST" duration-ms="19254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddItems -->
+        <test-method is-config="true" signature="LogoutFromApp(org.testng.ITestResult)[pri:0, instance:TestClass.VerifyLoginAndOrder@20deea7f]" started-at="2022-05-31T00:12:14 IST" name="LogoutFromApp" finished-at="2022-05-31T00:12:19 IST" duration-ms="4843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddItems status=SUCCESS method=VerifyLoginAndOrder.AddItems()[pri:0, instance:TestClass.VerifyLoginAndOrder@20deea7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp -->
+        <test-method is-config="true" signature="ClearObject()[pri:0, instance:TestClass.VerifyLoginAndOrder@20deea7f]" started-at="2022-05-31T00:12:19 IST" name="ClearObject" finished-at="2022-05-31T00:12:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObject -->
+        <test-method is-config="true" signature="CloseBrowse()[pri:0, instance:TestClass.VerifyLoginAndOrder@20deea7f]" started-at="2022-05-31T00:12:19 IST" name="CloseBrowse" finished-at="2022-05-31T00:12:20 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowse -->
+      </class> <!-- TestClass.VerifyLoginAndOrder -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- FKSuite -->
+</testng-results>

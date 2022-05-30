@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FKSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browsername" value="Chrome"/>
+    <classes>
+      <class name="TestClass.VerifyLoginAndOrder">
+        <methods>
+          <include name="LogoutFromApp"/>
+          <include name="CloseBrowse"/>
+          <include name="LaunchFlipkart"/>
+          <include name="AddItems"/>
+          <include name="ClearObject"/>
+          <include name="DeclareObject"/>
+          <include name="lauchdriver"/>
+        </methods>
+      </class> <!-- TestClass.VerifyLoginAndOrder -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [FKSuite] -->
